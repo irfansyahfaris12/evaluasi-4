@@ -1,6 +1,6 @@
 
-  for (i = 0; i < 9; i++){
-    for (h = 0; h < 9; h++){
+  for (i = 0; i <= 8; i++){
+    for (h = 0; h <= 8; h++){
       if (h == i) {
         document.write(h * 2 - 1)
       }else if(i == 8 - h){
